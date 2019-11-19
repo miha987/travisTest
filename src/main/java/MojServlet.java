@@ -15,7 +15,7 @@ public class MojServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        
+
         ProjectInfo pInfo = new ProjectInfo();
 
         String pInfoString = this.gson.toJson(pInfo);
